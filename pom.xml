@@ -207,5 +207,11 @@
  		</plugin>
 		
         </plugins>
+		 <distributionManagement>
+  <repository>
+    <id>repo1</id>
+    <url>http://54.164.141.91:8081/nexus/content/repositories/repo1</url>
+  </repository>
+</distributionManagement>
     </build>
 </project>
